@@ -1,0 +1,25 @@
+@import "../../../styles/vars";
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.o {
+    font-family: $osw;
+}
+
+.active {
+    background: #0099ff;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
