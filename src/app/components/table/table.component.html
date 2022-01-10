@@ -1,8 +1,9 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile><button  (click)="applyFilter('true')" mat-raised-button color="primary">True</button></mat-grid-tile>
+  <mat-grid-tile><button (click)="applyFilter('false')" mat-raised-button color="secondary">False</button></mat-grid-tile>
+</mat-grid-list>
+
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-
-  <!--- Note that these columns can be defined in any order.
-        The actual rendered columns are set as a property on the row definition" -->
-
   <!-- Position Column -->
   <ng-container matColumnDef="id">
     <th mat-header-cell *matHeaderCellDef> ID </th>
@@ -30,4 +31,3 @@
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
-

@@ -28,11 +28,14 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./table.component.scss']
 })
 export class TableComponent implements OnInit {
-  displayedColumns: string[] = ['id', 'title', 'completed', 'userId'];
+  displayedColumns: string[] = ['id', 'title', 'completed', 'userId']
   dataSource = new MatTableDataSource()
-  constructor(private service: APIServiceService) { }
+  data: Site[] = []
+  constructor(private service: APIServiceService) {
+  }
 
   ngOnInit(): void {
+    this.dataSource.filterPredicate = this.filterPredicate
     this.getData()
   }
 
@@ -42,4 +45,12 @@ export class TableComponent implements OnInit {
     })
   }
 
+  applyFilter(filterValue:string) {
+    this.dataSource.filter = filterValue
+  }
+
+  filterPredicate(data:any, filter: string) {
+    let datas = JSON.stringify(data).includes(filter)
+    return datas
+  }
 }
