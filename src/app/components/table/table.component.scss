@@ -1,2 +1,11 @@
 table {width: 100%;}
 .mat-grid-tile { background:auto;}
+tr:nth-child(even) {
+  background: #dffcdf;
+}
+tr:nth-child(odd) {
+  background: #eaf6f9;
+}
+
+// #fbf5e7
+// N/D
