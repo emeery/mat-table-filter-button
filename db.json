@@ -4,25 +4,29 @@
       "numberList": 1,
       "site": "Audi Pedregal Anillo Periférico Boulevard 3539, San Jerónimo Aculco, La Magdalena Contreras, 10400 Ciudad de México, CDMX 19.335048, -99.19840699999",
       "coverage": "Con cobertura",
-      "accessMedia": "Fibra"
+      "accessMedia": "Fibra",
+      "color": "#E6FAE9"
     },
     {
       "numberList": 2,
       "site": "Audi Pedregal Anillo Periférico Boulevard 3539, San Jerónimo Aculco, La Magdalena Contreras, 10400 Ciudad de México, CDMX 19.335048, -99.19840699999",
       "coverage": "Con cobertura",
-      "accessMedia": "Microonda"
+      "accessMedia": "Microonda",
+      "color": "#EBF1FA"
     },
     {
       "numberList": 3,
       "site": "Audi Pedregal Anillo Periférico Boulevard 3539, San Jerónimo Aculco, La Magdalena Contreras, 10400 Ciudad de México, CDMX 19.335048, -99.19840699999",
       "coverage": "Con cobertura",
-      "accessMedia": "Fibra"
+      "accessMedia": "Fibra",
+      "color": "#E6FAE9"
     },
     {
-      "numberList": 1,
+      "numberList": 4,
       "site": "Audi Pedregal Anillo Periférico Boulevard 3539, San Jerónimo Aculco, La Magdalena Contreras, 10400 Ciudad de México, CDMX 19.335048, -99.19840699999",
       "coverage": "Con cobertura",
-      "accessMedia": "N/D"
+      "accessMedia": "N/D",
+      "color":"#EEE8F3"
     }
   ]
 }
