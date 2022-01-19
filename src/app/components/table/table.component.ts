@@ -12,7 +12,8 @@ import { Site } from 'src/app/models/site.model';
 export class TableComponent implements OnInit {
   displayedColumns: string[] = ['id', 'title', 'completed', 'userId']
   dataSource = new MatTableDataSource()
-  // data: Site[] = []
+  color: string = ''
+  filterObject = {name:'', domain: ''}
   constructor(private service: APIServiceService) {
   }
 
@@ -27,8 +28,21 @@ export class TableComponent implements OnInit {
     })
   }
 
-  applyFilter(filterValue:string) {
-    this.dataSource.filter = filterValue
+  // applyFilter(filterValue:string) {
+  //   this.dataSource.filter = filterValue
+  // }
+
+  applyFilter(type: string) {
+    switch(type) {
+      case 'name':
+        this.filterObject.name = type;
+        break;
+      case 'domain':
+        this.filterObject.domain = type;
+        break;
+      default:
+        break;
+    }
   }
 
   filterPredicate(data:any, filter: string) {
