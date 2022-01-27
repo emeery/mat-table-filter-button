@@ -50,6 +50,32 @@
       "validity": "12-Nov-2021",
       "loadHld": "",
       "overdue":""
+    },
+    {
+      "quoteName": "Zapata_2-COT",
+      "quoteSheet": "COT3781622",
+      "oportunity": "Zapata 2",
+      "monthlyTotal": 23542.00,
+      "validity": "02-Dic-2021",
+      "loadHld": "",
+      "overdue":""
+    },
+    {
+      "quoteName": "Automotriz Nissan_1-COT",
+      "quoteSheet": "COT3781633",
+      "oportunity": "Automotriz Nissan 1",
+      "monthlyTotal": 56408.00,
+      "validity": "12-Nov-2021",
+      "loadHld": "",
+      "overdue":""
+    },{
+      "quoteName": "VW Lomas_4-COT",
+      "quoteSheet": "COT3781655",
+      "oportunity": "Toyota OP-2",
+      "monthlyTotal": 47124.00,
+      "validity": "12-Ene-2021",
+      "loadHld": "",
+      "overdue":""
     }
   ]
 }
