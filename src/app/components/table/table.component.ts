@@ -14,6 +14,7 @@ export class TableComponent implements OnInit {
   dataSource = new MatTableDataSource()
   color: string = ''
   filterObject = {name:'', domain: ''}
+  isChecked = false;
   constructor(private service: APIServiceService) {
   }
 
@@ -27,6 +28,12 @@ export class TableComponent implements OnInit {
       this.dataSource.data = data
     })
   }
+
+  abc() {
+    if (!this.isChecked) {
+        console.log('Checkbox cannot be unchecked...');
+    }
+}
 
   // applyFilter(filterValue:string) {
   //   this.dataSource.filter = filterValue

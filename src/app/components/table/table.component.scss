@@ -1,15 +1,190 @@
+.btn-check {
+  position: absolute;
+  clip: rect(0,0,0,0);
+  pointer-events: none;
+}
+
+
+.btn-check-no-shadow,
+.btn-check:checked + .btn-check:focus {
+  box-shadow: none !important;
+}
+
+// fiber
+.btn-check-fiber {
+  border: none;
+  color: black;
+  background: white;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 8%) !important;
+}
+
+.btn-check-fiber:hover {
+  color: black !important;
+  background-color: white;
+  background: white; //rgba(260, 0, 0, 0.1);
+  font-weight: 600;
+  border: none;
+}
+
+.btn-check:checked + .btn-check-fiber {
+  color: black !important;
+  background-color: rgb(230, 250, 233);
+  font-weight: 600;
+  border: none;
+}
+// microwave
+// .btn-check-microwave {
+//   border: none;
+//   color: black;
+//   background: white;
+//   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 8%) !important;
+// }
+
+// .btn-check-microwave:hover {
+//   color: black !important;
+//   background-color: white;
+//   background: white; //rgba(260, 0, 0, 0.1);
+//   font-weight: 600;
+//   border: none;
+// }
+
+// .btn-check:checked + .btn-check-microwave {
+//   color: black !important;
+//   background-color: rebeccapurple;
+//   font-weight: 600;
+//   border: none;
+// }
+
+// negociate
+// .btn-check-negociate {
+//   border: none;
+//   color: black;
+//   background: white;
+//   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 8%) !important;
+// }
+
+// .btn-check-negociate:hover {
+//   color: black !important;
+//   background-color: white;
+//   background: white; //rgba(260, 0, 0, 0.1);
+//   font-weight: 600;
+//   border: none;
+// }
+
+// .btn-check:checked + .btn-check-negociate {
+//   color: $color-button-coverage-text !important;
+//   background-color: $color-button-coverage-bg !important;
+//   font-weight: 600;
+//   border: none;
+// }
+
+// coverage
+// .btn-check-coverage {
+//   border: none;
+//   color: black;
+//   background: white;
+//   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 8%) !important;
+// }
+
+// .btn-check-coverage:hover {
+//   color: black !important;
+//   background-color: white;
+//   background: white; //rgba(260, 0, 0, 0.1);
+//   font-weight: 600;
+//   border: none;
+// }
+
+// .btn-check:checked + .btn-check-coverage {
+//   color: $color-button-coverage-text !important;
+//   background-color: blue;
+//   border: none;
+// }
+
+// meter
+// .btn-check-meter {
+//   border: none;
+//   color: black;
+//   background: white;
+//   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 8%) !important;
+// }
+
+// .btn-check-meter:hover {
+//   color: black !important;
+//   background-color: white;
+//   background: white; //rgba(260, 0, 0, 0.1);
+//   font-weight: 600;
+//   border: none;
+// }
+
+// .btn-check:checked + .btn-check-meter {
+//   color: $color-button-meter-text !important;
+//   background-color: sandybrown !important;
+//   font-weight: 600;
+//   border: none;
+// }
+
+.position-filters {
+  width: 46.66%;
+}
+
+.space-img {
+  margin-top: 5rem;
+}
+
+.fw-button {
+  font-weight: 600;
+}
+
+// table
 table {
   width: 100%;
 }
-.mat-grid-tile {
-  background: auto;
+
+.mat-header-cell {
+  color: black;
+  background: #f7fafc;
 }
-tr:nth-child(even) {
-  background: #dffcdf;
+
+.mat-column-check {
+  flex: none;
+  width: 10px;
 }
-tr:nth-child(odd) {
-  background: #eaf6f9;
+
+.mat-column-index {
+  flex: none;
+  width: 15px;
 }
-input[type="checkbox"] {
-  visibility: hidden;
+
+.mat-column-site {
+  flex: none;
+  width: 200px;
+}
+
+.mat-column-coverage {
+  flex: none;
+  text-align: center;
+  width: 70px;
+}
+
+.mat-column-accessMedia {
+  width: 20px;
+  text-align: center;
+  flex: none;
+}
+
+.mat-column-edit {
+  width: 10px;
+  text-align: center;
+  flex: none;
+}
+
+.btn-round {
+  cursor: pointer;
+  border-radius: 50%;
+  background: white;
+  border: none;
+}
+
+.bolder {
+  font-weight: 500 !important;
 }
