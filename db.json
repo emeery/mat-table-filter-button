@@ -43,7 +43,6 @@
   ],
   "quotes-received": [
     {
-      "quoteId": 1,
       "quoteName": "Cotizacion Audi 1",
       "quoteSheet": "COT7808232",
       "oportunity": "AUDI CDMX OP",
@@ -53,7 +52,6 @@
       "overdue":""
     },
     {
-      "quoteId": 2,
       "quoteName": "Zapata_2-COT",
       "quoteSheet": "COT3781622",
       "oportunity": "Zapata 2",
@@ -63,7 +61,6 @@
       "overdue":""
     },
     {
-      "quoteId": 3,
       "quoteName": "Automotriz Nissan_1-COT",
       "quoteSheet": "COT3781633",
       "oportunity": "Automotriz Nissan 1",
@@ -73,7 +70,6 @@
       "overdue":""
     },
     {
-      "quoteId": 4,
       "quoteName": "VW Lomas_4-COT",
       "quoteSheet": "COT3781644",
       "oportunity": "Automotriz Nissan 1",
@@ -83,7 +79,6 @@
       "overdue":""
     },
     {
-      "quoteId": 5,
       "quoteName": "Privada_COT",
       "quoteSheet": "COT3781677",
       "oportunity": "Privada 3",
@@ -93,7 +88,6 @@
       "overdue":""
     },
     {
-      "quoteId": 6,
       "quoteName": "Aeroméxico_1-COT",
       "quoteSheet": "COT3781600",
       "oportunity": "Aeroméxico 1",
