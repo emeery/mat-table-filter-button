@@ -1,6 +1,8 @@
 export interface Site{
-  id: number;
-  name: string;
-  type: string;
-  location: string;
+  numberList: number;
+  site: string;
+  coverage: string;
+  accessMedia: string;
+  color: string;
+  active: boolean;
 }
